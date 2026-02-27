@@ -164,9 +164,6 @@ export const getOAuth2AdditionalParameters = (nodeCredentialType: string) => {
 			tokenType: 'Bearer',
 			includeCredentialsOnRefreshOnBody: true,
 		},
-		lineNotifyOAuth2Api: {
-			tokenType: 'Bearer',
-		},
 		linkedInOAuth2Api: {
 			tokenType: 'Bearer',
 		},
